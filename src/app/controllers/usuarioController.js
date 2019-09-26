@@ -9,9 +9,9 @@ router.use(authMiddleware);
 
 router.get('/selectAll', async (req, res) =>{
     try{
-        const usuario = await Usuario.find()
+        const usuarios = await Usuario.find()
         
-        return res.send({ usuario });
+        return res.send({ usuarios });
     } catch (err){
         return res.status(400).send({ error: 'Erro ao carregar Usuarios' });
     }
