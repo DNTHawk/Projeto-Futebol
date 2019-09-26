@@ -1,11 +1,12 @@
 ## Sumário
 <!--ts-->
 * [Introdução](#Introdução)
-* [Usuario](#1-Usuario)
-  * [POST (Cadastrar Usuario)](#11-POST-Cadastrar-Usuario)
-  * [POST (Autenticar Usuario)](#01-GET-Listagem)
-  * [GET (Consultar todos os Usuario)](#01-GET-Listagem)
-  * [GET (Consultar usuario pelo id)](#01-GET-Listagem)
+* [Usuário](#1-Usuário)
+  * [POST (Cadastrar Usuário)](#11-POST-Cadastrar-Usuário)
+  * [POST (Autenticar Usuário)](#12-POST-Autenticar-Usuário)
+  * [GET (Consultar todos os Usuário)](#13-GET-Selecionar-todos-os-Usuário)
+  * [GET (Consultar Usuário pelo id)](#14-GET-Selecionar-Usuário-pelo-ID)
+  * [DELETE (Deletar Usuário pelo id)](#14-GET-Deletar-Usuário-pelo-ID)
 
 Introdução 
 ========
@@ -20,12 +21,30 @@ http://UrlDoServidor:3000/usuario/cadastrar
 ```
 > Obs: Todas as requisições precisam de token.
 ## Rotas
-## 1 Usuario
-#### 1.1 POST Cadastrar Usuario
+## 1 Usuário
+#### 1.1 POST Cadastrar Usuário
 Rota
 ```
-/query/UsuarioFindById?entityId=1de74c72-3f96-4bc4-b33f-b65fa9ba16c0
+/usuario/cadastrar
 ```
-```sh
-query/UsuarioFindByParameter?parameter=&number=1&size=10
+#### 1.2 POST Autenticar Usuário
+Rota
+```
+/usuario/autenticar
+```
+#### 1.3 GET Selecionar todos os Usuário
+Rota
+```
+/usuario/selectAll
+```
+#### 1.4 GET Selecionar Usuário pelo ID
+Rota
+```
+/usuario/selectById/5d8d10137da89733ce923e9c
+```
+
+#### 1.5 DELETE Deletar Usuário pelo ID
+Rota
+```
+/usuario/deleteById/5d8d10137da89733ce923e9c
 ```
