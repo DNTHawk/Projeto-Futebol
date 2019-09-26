@@ -30,8 +30,8 @@ Rota
 Json
 ```
 {
-	"nome" : "Felipe Rodrigo 2",
-	"email" : "lipedigo2@hotmail.com",
+	"nome" : "Felipe Rodrigo",
+	"email" : "lipedigo@hotmail.com",
 	"password" : "123Mudar"
 }
 ```
@@ -41,6 +41,14 @@ Rota
 ```
 /usuario/autenticar
 ```
+Json
+```
+{
+	"email" : "lipedigo@hotmail.com",
+	"password" : "123Mudar"
+}
+```
+
 #### 1.3 GET Selecionar todos os Usuário
 Rota
 ```
