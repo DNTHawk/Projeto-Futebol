@@ -6,7 +6,7 @@
   * [POST (Autenticar Usuário)](#12-POST-Autenticar-Usuário)
   * [GET (Consultar todos os Usuário)](#13-GET-Selecionar-todos-os-Usuário)
   * [GET (Consultar Usuário pelo id)](#14-GET-Selecionar-Usuário-pelo-ID)
-  * [DELETE (Deletar Usuário pelo id)](#14-GET-Deletar-Usuário-pelo-ID)
+  * [DELETE (Deletar Usuário pelo id)](#15-GET-Deletar-Usuário-pelo-ID)
 
 Introdução 
 ========
