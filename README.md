@@ -27,6 +27,13 @@ Rota
 ```
 /usuario/cadastrar
 ```
+JSON
+{
+	"nome" : "Felipe Rodrigo 2",
+	"email" : "lipedigo2@hotmail.com",
+	"password" : "123Mudar"
+}
+
 #### 1.2 POST Autenticar Usuário
 Rota
 ```
