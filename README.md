@@ -2,7 +2,7 @@
 <!--ts-->
 * [Introdução](#Introdução)
 * [Usuario](#1-Usuario)
-  * [POST (Cadastrar Usuario)](#1.1-POST-Cadastrar-Usuario)
+  * [POST (Cadastrar Usuario)](#11-POST-Cadastrar-Usuario)
   * [POST (Autenticar Usuario)](#01-GET-Listagem)
   * [GET (Consultar todos os Usuario)](#01-GET-Listagem)
   * [GET (Consultar usuario pelo id)](#01-GET-Listagem)
