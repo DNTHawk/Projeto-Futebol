@@ -15,7 +15,7 @@
 
 Introdução 
 ========
-> Seguem abaixo informações de como fazer requisições no backend da cleanpool.  
+> Seguem abaixo informações de como fazer requisições no backend.  
 Ex: 
 ```sh
 http://localhost:3000/usuario/cadastrar
@@ -59,10 +59,39 @@ Rota
 ```
 /usuario/selectAll
 ```
+Retorno Json
+```
+{
+    "usuarios": [
+        {
+            "_id": "5d8d10137da89733ce923e9c",
+            "nome": "Felipe Rodrigo",
+            "email": "lipedigo@hotmail.com",
+            "createdAt": "2019-09-26T19:22:59.250Z",
+            "__v": 0
+        }
+    ]
+}
+```
+
 #### 1.4 GET Selecionar Usuário pelo ID
 Rota
 ```
 /usuario/selectById/5d8d10137da89733ce923e9c
+```
+Retorno Json
+```
+{
+    "usuarios": [
+        {
+            "_id": "5d8d10137da89733ce923e9c",
+            "nome": "Felipe Rodrigo",
+            "email": "lipedigo@hotmail.com",
+            "createdAt": "2019-09-26T19:22:59.250Z",
+            "__v": 0
+        }
+    ]
+}
 ```
 
 #### 1.5 DELETE Deletar Usuário pelo ID
@@ -90,11 +119,43 @@ Rota
 ```
 /estadio/selectAll
 ```
+Retorno Json
+```
+{
+    "estadios": [
+        {
+            "_id": "5d8d1eca0f95a938908b8497",
+            "nome": "Allianz Parque",
+            "cidade": "São Paulo",
+            "estado": "São Paulo",
+            "createdAt": "2019-09-26T20:25:46.927Z",
+            "__v": 0
+        }
+    ]
+}
+```
+
 #### 2.3 GET Consultar Estádio pelo ID
 Rota
 ```
 /estadio/selectById/5d8d1eca0f95a938908b8497
 ```
+Retorno Json
+```
+{
+    "estadios": [
+        {
+            "_id": "5d8d1eca0f95a938908b8497",
+            "nome": "Allianz Parque",
+            "cidade": "São Paulo",
+            "estado": "São Paulo",
+            "createdAt": "2019-09-26T20:25:46.927Z",
+            "__v": 0
+        }
+    ]
+}
+```
+
 #### 2.4 DELETE Deletar Estádio pelo ID
 Rota
 ```
