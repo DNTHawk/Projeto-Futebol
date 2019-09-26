@@ -2,7 +2,7 @@
 <!--ts-->
 * [Introdução](#Introdução)
 * [Usuario](#1-Usuario)
-  * [POST (Cadastrar Usuario)](#1.1-POST)
+  * [POST (Cadastrar Usuario)](#1.1-POST-Cadastrar-Usuario)
   * [POST (Autenticar Usuario)](#01-GET-Listagem)
   * [GET (Consultar todos os Usuario)](#01-GET-Listagem)
   * [GET (Consultar usuario pelo id)](#01-GET-Listagem)
@@ -21,7 +21,7 @@ http://UrlDoServidor:3000/usuario/cadastrar
 > Obs: Todas as requisições precisam de token.
 ## Rotas
 ## 1 Usuario
-#### 1.1 POST (Informações da Usuario Física/Jurídica)
+#### 1.1 POST Cadastrar Usuario
 Rota
 ```
 /query/UsuarioFindById?entityId=1de74c72-3f96-4bc4-b33f-b65fa9ba16c0
