@@ -82,7 +82,7 @@ Rota
 Retorno Json
 ```
 {
-    "usuarios": [
+    "usuario": [
         {
             "_id": "5d8d10137da89733ce923e9c",
             "nome": "Felipe Rodrigo",
@@ -143,7 +143,7 @@ Rota
 Retorno Json
 ```
 {
-    "estadios": [
+    "estadio": [
         {
             "_id": "5d8d1eca0f95a938908b8497",
             "nome": "Allianz Parque",
