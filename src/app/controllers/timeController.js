@@ -19,7 +19,7 @@ router.post('/cadastrar', async (req, res) => {
 
 router.get('/selectAll', async (req, res) =>{
     try{
-        const times = await Time.find()
+        const times = await Time.find().populate('estadio')
         
         return res.send({ times });
     } catch (err){
@@ -29,7 +29,7 @@ router.get('/selectAll', async (req, res) =>{
 
 router.get('/selectById/:timeId', async (req, res) => {
     try{
-        const time = await Time.findById(req.params.timeId);
+        const time = await Time.findById(req.params.timeId).populate('estadio');
         
         return res.send({ time });
     } catch (err){

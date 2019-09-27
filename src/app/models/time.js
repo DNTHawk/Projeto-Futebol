@@ -6,11 +6,9 @@ const TimeSchema = new mongoose.Schema({
         required: true,
     },
     estadio: {
-        id :{
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Estadio',
-            require: true,
-        }
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Estadio',
+        require: true,
     },
     url_emblema: {
         type: String,
