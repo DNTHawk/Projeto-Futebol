@@ -12,6 +12,11 @@
     * [GET (Consultar todos os Estádio)](#22-GET-Consultar-todos-os-Estádio)
     * [GET (Consultar Estádio pelo ID)](#23-GET-Consultar-Estádio-pelo-ID)
     * [DELETE (Deletar Estádio pelo ID)](#24-DELETE-Deletar-Estádio-pelo-ID)
+* [Time](#3-Time)
+    * [POST (Cadastrar Time)](#31-POST-Cadastrar-Time)
+    * [GET (Consultar todos os Time)](#32-GET-Consultar-todos-os-Times)
+    * [GET (Consultar Time pelo ID)](#33-GET-Consultar-Time-pelo-ID)
+    * [DELETE (Deletar Time pelo ID)](#34-DELETE-Deletar-Estádio-pelo-ID)
 
 Introdução 
 ========
@@ -160,4 +165,76 @@ Retorno Json
 Rota
 ```
 /estadio/deleteById/5d8d20f3ab176938fb6d750e
+```
+
+## 3 Time
+#### 3.1 POST Cadastrar Time
+Rota
+```
+/time/cadastrar
+```
+Json
+```
+{
+	"nome" : "Palmeiras",
+	"estadio" : "5d8d1eca0f95a938908b8497",
+	"url_emblema" : "url"
+}
+```
+#### 3.2 GET Consultar todos os Times
+Rota
+```
+/time/selectAll
+```
+Retorno Json
+```
+{
+    "times": [
+        {
+            "_id": "5d8e0e70f581923d1b295835",
+            "nome": "Palmeiras",
+            "estadio": {
+                "_id": "5d8d1eca0f95a938908b8497",
+                "nome": "Allianz Parque",
+                "cidade": "São Paulo",
+                "estado": "São Paulo",
+                "createdAt": "2019-09-26T20:25:46.927Z",
+                "__v": 0
+            },
+            "url_emblema": "Teste",
+            "createdAt": "2019-09-27T13:28:16.408Z",
+            "__v": 0
+        }
+    ]
+}
+```
+#### 3.3 GET Consultar Time pelo ID
+Rota
+```
+/time/selectById/5d8e0e70f581923d1b295835
+```
+Retorno Json
+```
+{
+    "time": {
+        "_id": "5d8e0e70f581923d1b295835",
+        "nome": "Palmeiras",
+        "estadio": {
+            "_id": "5d8d1eca0f95a938908b8497",
+            "nome": "Allianz Parque",
+            "cidade": "São Paulo",
+            "estado": "São Paulo",
+            "createdAt": "2019-09-26T20:25:46.927Z",
+            "__v": 0
+        },
+        "url_emblema": "Teste",
+        "createdAt": "2019-09-27T13:28:16.408Z",
+        "__v": 0
+    }
+}
+```
+#### 3.4 DELETE Deletar Time pelo ID
+Rota
+```
+/time/deleteById/5d8d20f3ab176938fb6d750e
 ```
