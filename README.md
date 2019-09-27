@@ -236,5 +236,5 @@ Retorno Json
 #### 3.4 DELETE Deletar Time pelo ID
 Rota
 ```
-/time/deleteById/5d8d20f3ab176938fb6d750e
+/time/deleteById/5d8e0e70f581923d1b295835
 ```
