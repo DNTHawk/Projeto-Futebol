@@ -16,7 +16,7 @@
     * [POST (Cadastrar Time)](#31-POST-Cadastrar-Time)
     * [GET (Consultar todos os Time)](#32-GET-Consultar-todos-os-Times)
     * [GET (Consultar Time pelo ID)](#33-GET-Consultar-Time-pelo-ID)
-    * [DELETE (Deletar Time pelo ID)](#34-DELETE-Deletar-Estádio-pelo-ID)
+    * [DELETE (Deletar Time pelo ID)](#34-DELETE-Deletar-Time-pelo-ID)
 
 Introdução 
 ========
